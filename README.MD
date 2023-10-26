@@ -14,6 +14,10 @@ textAlignment: how you want the text aligned.
 | birthdays  | An array of `birthdays` objects as described below | See below  |
 
 So, the default `config.js` entry for this module could look like this:
+
+
+
+
 {
   module: "UpcomingBirthdays",
   position: "top_right", // Set the desired position
