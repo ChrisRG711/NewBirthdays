@@ -19,7 +19,8 @@ So, the default `config.js` entry for this module could look like this:
   position: "top_right", // Set the desired position
   header: "upcoming birthdays",
   config: {
-  birthdays: [
+  birthdays: 
+[
 {       name: "Joe",
                 date: "1997-11-25"
 		
@@ -32,7 +33,7 @@ So, the default `config.js` entry for this module could look like this:
     textColor: "green",
     textSize: "large",
     textAlignment: "left"
-  }
+}
 },
 ### Birthdays Array
 The birthdays array is a list of JSON objects containing the following fields 
