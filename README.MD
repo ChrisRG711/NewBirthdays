@@ -23,8 +23,8 @@ So, the default `config.js` entry for this module could look like this:
 {       name: "Joe",
                 date: "1997-11-25"
 		
-        },
-        {
+},
+{
                 name: "Virginia",
                 date: "1948-08-30
 }
@@ -39,4 +39,4 @@ The birthdays array is a list of JSON objects containing the following fields
 Name:
 Date:
 
-Date should be in RFC 2822 date format `"YYYY-MM-DD
+FYI: Date should be in RFC 2822 date format `"YYYY-MM-DD
