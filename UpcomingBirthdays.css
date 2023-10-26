@@ -1,35 +1,60 @@
 /* CSS for the UpcomingBirthdays module */
 
 /* Style for the entire module wrapper */
- .UpcomingBirthdays {
-    /* Add any styles for the module container here */
-  }
-  
-  /* Style for individual birthday entries */
-  .UpcomingBirthdays .birthday-entry {
-    /* Add styles for each birthday entry here */
-    margin-bottom: 10px; /* Example margin between entries */
-  }
-  
-  /* Style for the text within each birthday entry */
-  .UpcomingBirthdays .birthday-entry .birthday-text {
-    /* Add text styles here */
-    font-weight: bold; /* Example: make text bold */
-    text-transform: uppercase; /* Example: make text uppercase */
-  }
-  
-  /* Style for text color */
-  .UpcomingBirthdays .birthday-entry .birthday-text {
-    color: white; /* Example text color */
-  }
-  
-  /* Style for text size */
-  .UpcomingBirthdays .birthday-entry .birthday-text {
-    font-size: 24px; /* Example text size */
-  }
-  
-  /* Style for text alignment */
-  .UpcomingBirthdays .birthday-entry .birthday-text {
-    text-align: left; /* Example text alignment */
-  }
-  
+.UpcomingBirthdays {
+  padding: 10px; /* Example padding */
+  margin: 10px; /* Example margin */
+  background-color: #333; /* Example background color */
+  border: 1px solid #999; /* Example border */
+  width: 300px; /* Example width */
+  height: 200px; /* Example height */
+}
+
+/* Style for individual birthday entries */
+.UpcomingBirthdays .birthday-entry {
+  /* Add styles for each birthday entry here */
+  margin-bottom: 10px; /* Example margin between entries */
+}
+
+/* Style for the text within each birthday entry */
+.UpcomingBirthdays .birthday-entry .birthday-text {
+  /* Add text styles here */
+  font-weight: bold; /* Example: make text bold */
+  text-transform: uppercase; /* Example: make text uppercase */
+}
+
+/* Style for text color */
+.UpcomingBirthdays .birthday-entry .birthday-text {
+  color: white; /* Example text color */
+}
+
+/* Style for text size */
+.UpcomingBirthdays .birthday-entry .birthday-text {
+  font-size: 24px; /* Example text size */
+}
+
+/* Style for text alignment */
+.UpcomingBirthdays .birthday-entry .birthday-text {
+  text-align: left; /* Example text alignment */
+}
+
+
+***
+.UpcomingBirthdays {
+  background-color: #333; /* Example background color */
+}
+.UpcomingBirthdays {
+  padding: 10px; /* Example padding */
+  margin: 10px; /* Example margin */
+}
+.UpcomingBirthdays {
+  border: 1px solid #999; /* Example border */
+}
+
+.UpcomingBirthdays {
+  box-shadow: 5px 5px 10px #888; /* Example box shadow */
+}
+.UpcomingBirthdays {
+  width: 300px; /* Example width */
+  height: 200px; /* Example height */
+}

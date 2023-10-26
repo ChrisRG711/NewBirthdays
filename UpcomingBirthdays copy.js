@@ -1,4 +1,3 @@
-/* With Marquee*/
 Module.register("UpcomingBirthdays", {
   // Default module config
   defaults: {
@@ -26,11 +25,6 @@ Module.register("UpcomingBirthdays", {
 
   getDom: function () {
     const wrapper = document.createElement("div");
-    const marqueeContainer = document.createElement("div");
-    marqueeContainer.className = "marquee-container";
-    const marqueeContent = document.createElement("div");
-    marqueeContent.className = "marquee-content";
-
     const now = new Date();
     const currentYear = now.getFullYear();
     const currentMonth = now.getMonth() + 1;
@@ -68,11 +62,8 @@ Module.register("UpcomingBirthdays", {
 
       birthdayText.innerHTML = `${birthday.name} will be ${birthday.age} in ${birthday.daysUntilBirthday} days`;
 
-      marqueeContent.appendChild(birthdayText);
+      wrapper.appendChild(birthdayText);
     }
-
-    marqueeContainer.appendChild(marqueeContent);
-    wrapper.appendChild(marqueeContainer);
 
     return wrapper;
   },
