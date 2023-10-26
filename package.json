@@ -1,0 +1,10 @@
+{
+  "name": "MMM-UpcomingBirthdays",
+  "description": "MagicMirror Module for displaying upcoming birthdays",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
